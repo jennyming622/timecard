@@ -11,8 +11,7 @@ background_image = ImageTk.PhotoImage(Image.open("ttt.jpg"))
 background_label = tk.Label(win, image=background_image)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
-#起床了沒?
-#起床了沒2?
+
 
 def event1():
     global label2Str# Label1 的文字 變數
